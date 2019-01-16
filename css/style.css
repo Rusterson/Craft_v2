@@ -85,7 +85,7 @@ button {
 }
 .h__social, .h__contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
 }
 .h__social svg, .h__contact svg {
@@ -137,10 +137,13 @@ button {
   border: 1px solid #f1f1f1;
   background: #f7f7f7;
   box-shadow: 0 0 20px 2px #d6d6d6;
-  display: flex;
-  flex-flow: column;
-  margin-bottom: 15px;
+  margin: 15px 8%;
   padding: 25px;
+}
+.hr__box-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hr__box--title {
   color: #5db442;
@@ -152,7 +155,7 @@ button {
 .hr__box--ico {
   position: absolute;
   width: 37px;
-  padding-left: 12px;
+  margin-left: -90px;
 }
 .hr__box--list li {
   list-style-type: decimal;
@@ -163,7 +166,7 @@ button {
 .hr__link {
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .hr__link-c {
   text-align: center;
@@ -235,6 +238,7 @@ button {
   flex-flow: column;
   align-items: center;
   border: 1px solid #ececec;
+  width: 127px;
 }
 .of__prices--btn {
   border: 1px solid #ececec;
@@ -277,6 +281,7 @@ button {
 .of__prices-list {
   border-top: 1px solid #ececec;
   padding-top: 30px;
+  width: 100%;
 }
 .of__prices-list li {
   display: flex;
@@ -297,7 +302,7 @@ button {
 .of__box {
   background: #ffffff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 10px;
 }
 
@@ -306,16 +311,17 @@ button {
 }
 .ot__title {
   padding: 5px 0;
+  font-size: 1.63rem;
 }
 .ot__box {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 10px;
 }
 .ot__box-item {
   background: #ffffff;
-  width: 130px;
+  width: 32%;
   padding: 5px;
   box-shadow: 1px 1px 4px 1px #e2e2e2;
   margin-bottom: 15px;
@@ -331,7 +337,6 @@ button {
   font-size: 1.1em;
 }
 .ot__box-item--text {
-  font-size: 0.8em;
   margin-top: 5px;
   font-weight: 300;
 }
@@ -363,6 +368,7 @@ button {
 .lk__inp {
   display: flex;
   flex-flow: column;
+  margin: 0 10% 15px 10%;
 }
 .lk__inp-box {
   display: flex;
