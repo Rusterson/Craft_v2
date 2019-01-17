@@ -10,16 +10,29 @@
 
     &-title
       font-size: 1.2em
+      @media(min-width: $sm)
+        font-size: 1.5rem
 
     &-item
       font-weight: 300
       font-size: 0.8em
       margin: 5px 0
+      @media(min-width: $sm)
+        font-size: 1rem
 
   &inp
     display: flex
     flex-flow: column
     margin: 0 10% 15px 10%
+    @media(min-width: $sm)
+      margin: 0
+      text-align: left
+      flex-basis: 0
+      align-items: baseline
+
+    &-title
+      @media(min-width: $sm)
+        font-size: 1.5rem
 
     &-box
       display: flex
@@ -57,5 +70,7 @@
     &-text
       font-weight: 300
       padding: 5px 0
+      @media(min-width: $sm)
+        font-size: 1.2rem
 
 

@@ -6,6 +6,9 @@
 
   &title
     padding-bottom: 5px
+    @media(min-width: $sm)
+      font-size: 2.5rem
+      font-weight: 400
 
   &box
     border: 1px solid #f1f1f1
@@ -13,6 +16,8 @@
     box-shadow: 0 0 20px 2px #d6d6d6
     margin: 15px 8%
     padding: 25px
+    @media(min-width: $sm)
+      padding: 40px
 
     &-in
       display: flex
@@ -25,17 +30,23 @@
       font-size: 1.3em
       padding: 7px 0
       margin-left: 20px
+      @media(min-width: $sm)
+        font-size: 2rem
 
     &--ico
       position: absolute
       width: 37px
       margin-left: -90px
+      @media(min-width: $sm)
+        margin-left: -100px
 
     &--list li
         list-style-type: decimal
         list-style-position: inside
         margin-left: 20px
         margin-bottom: 5px
+        @media(min-width: $sm)
+          font-size: 1.3rem
 
   &link
     display: flex
@@ -48,9 +59,13 @@
       flex-flow: column
       align-items: center
       width: 58px
+      @media(min-width: $sm)
+        width: 104px
 
     &-p
       margin-top: 5px
+      @media(min-width: $sm)
+        font-size: 1.2rem
 
     &-bk
       border: 1px solid #5db442
@@ -61,4 +76,7 @@
       justify-content: center
       align-items: center
       background: #f7f7f7
+      @media(min-width: $sm)
+        width: 40px
+        height: 40px
 

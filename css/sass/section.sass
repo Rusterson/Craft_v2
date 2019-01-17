@@ -3,10 +3,22 @@
 
   &title
     padding-bottom: 5px
+    @media(min-width: $sm)
+      font-size: 2.5rem
+      font-weight: 400
 
   &text,
   &text-2
     font-weight: 300
+  
+  &text
+    @media(min-width: $sm)
+      font-size: 1.5rem
+
+  &text-2
+    color: #ffffff
+    @media(min-width: $sm)
+      font-size: 1.3rem
   
   &img
     margin: 5px 0
@@ -26,6 +38,8 @@
       border: 1px solid #37804e
       border-right: none
       text-align: center
+      @media(min-width: $sm)
+        height: 26px
 
       &::placeholder
         font-size: 11px
@@ -39,4 +53,6 @@
       background: #37804e
       font-size: 1em
       padding: 2px
+      @media(min-width: $sm)
+        height: 28px
 

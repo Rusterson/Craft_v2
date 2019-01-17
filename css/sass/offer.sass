@@ -1,12 +1,19 @@
 .of__
   background: #ffffff
-                        //<-------Button styles------<
+
+  &title
+    @media(min-width: $sm)
+      font-size: 2.5rem
+      font-weight: 400
+
   &btn
     display: flex
     flex-flow: row
     justify-content: center
     align-items: center
     margin-top: 10px
+    @media(min-width: $sm)
+      margin-top: 15px
 
     &-m
       display: flex
@@ -49,6 +56,8 @@
     align-items: center
     border: 1px solid #ececec
     width: 127px
+    @media(min-width: $sm)
+      width: 135px
 
     &--btn
       border:1px solid #ececec
@@ -57,6 +66,9 @@
       background: #ffffff
       padding: 3px
       margin-bottom: 5px
+      @media(min-width: $sm)
+        font-size: 1rem
+        padding: 6px 12px
       
       &:hover
         background: #5db442
@@ -64,6 +76,9 @@
 
     &-title
       height: 40px
+      @media(min-width: $sm)
+        height: 50px
+        font-size: 1.5rem
 
       & js--set // Javascript here 
         border-top: 2px solid #5db442
@@ -80,18 +95,28 @@
       background: #f7f7f7
       position: absolute
       box-shadow: 0 0 3px 3px #ececec
+      @media(min-width: $sm)
+        width: 60px
+        height: 60px
 
       &--v
         font-size: 1.5em
+        @media(min-width: $sm)
+          font-size: 1.8rem
 
       &--t
         font-size: 0.5em
         font-weight: 300
+        font-style: italic
+        @media(min-width: $sm)
+          font-size: 0.9rem
 
     &-list
       border-top: 1px solid #ececec
       padding-top: 30px
       width: 100%
+      @media(min-width: $sm)
+        padding-top: 40px
 
       & li
         display: flex
@@ -103,11 +128,16 @@
       & svg
         width: 7px
         height: 7px
+        @media(min-width: $sm)
+          width: 8px
+          height: 8px
 
       & p
         font-size: 0.7em
         margin-bottom: 6px
         margin-left: 3px
+        @media(min-width: $sm)
+          font-size: 1rem
 
 
 
@@ -116,3 +146,5 @@
     display: flex
     justify-content: space-evenly
     margin-top: 10px
+    @media(min-width: $sm)
+      margin-top: 15px

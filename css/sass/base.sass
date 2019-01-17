@@ -1,7 +1,7 @@
-$sm: "(min-width: 576px)"
-$md: "(min-width: 768px)"
-$lg: "(min-width: 992px)"
-$el: "(min-width: 1200px)"
+$sm:576px
+$md:768px
+$lg:992px
+$el:1200px
 
 *
   text-decoration: none
@@ -11,7 +11,8 @@ $el: "(min-width: 1200px)"
 
 html
   font-size: 10px
-  font-family: 'Roboto'
+  font-family: 'Roboto', 'sans-serif', 'Basic Sans 7'
+  font-weight: 400
 
 a
   color: black
@@ -27,3 +28,5 @@ button
   padding: 5%
   margin: auto
   text-align: center
+  @media(min-width: $sm)
+    padding: 10px 3%

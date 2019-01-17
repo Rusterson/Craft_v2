@@ -2,22 +2,36 @@
   display: flex
   flex-flow: column-reverse
   background: #282828
+  @media(min-width: $sm)
+    flex-flow: row
+    justify-content: space-between
 
   &social
     margin-top: 18px
+    @media(min-width: $sm)
+      margin-top: 0
 
     & svg
       width: 18px
       height: 18px
+      @media(min-width: $sm)
+        margin-right: 12px
 
   &social,
   &contact
     display: flex
     justify-content: space-between
     align-items: baseline
+    @media(min-width: $sm)
+      justify-content: unset
+      align-items: unset
 
     & svg
       fill: #ffffff
+
+    &-tel
+      @media(min-width: $sm)
+        margin-right: 12px
 
     &-tel, 
     &-eml
