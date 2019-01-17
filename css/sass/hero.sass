@@ -1,12 +1,19 @@
 .hr__
+  transition: all 350ms
   background-image: url('../img/bk-img.png')
   @media(min-width: $lg)
     padding: 100px
+  @media(min-width: $el)
+    display: flex
+    flex-flow: column nowrap
+    align-items: center
 
   & svg
+    transition: all 350ms
     fill: #5db442
 
   &title
+    transition: all 350ms
     padding-bottom: 5px
     @media(min-width: $sm)
       font-size: 2.5rem
@@ -16,10 +23,14 @@
     @media(min-width: $lg)
       padding: 0
       font-size: 4rem
+      font-weight: 300
+    @media(min-width: $el)
+      font-size: 4.8rem
 
   &box
+    transition: all 350ms
     border: 1px solid #f1f1f1
-    background: #f7f7f7
+    background: #ffffff
     box-shadow: 0 0 20px 2px #d6d6d6
     margin: 15px 8%
     padding: 25px
@@ -28,13 +39,17 @@
     @media(min-width: $lg)
       margin: 30px
       padding: 90px
+    @media(min-width: $el)
+      width: 630px
 
     &-in
+      transition: all 350ms
       display: flex
       flex-direction: column
       align-items: center
 
     &--title
+      transition: all 350ms
       color: #5db442
       font-weight: 300
       font-size: 1.3em
@@ -46,6 +61,7 @@
         font-size: 2.6rem
 
     &--ico
+      transition: all 350ms
       position: absolute
       width: 37px
       margin-left: -90px
@@ -59,16 +75,18 @@
         margin-top: 12px
 
     &--list li
-        list-style-type: decimal
-        list-style-position: inside
-        margin-left: 20px
-        margin-bottom: 5px
-        @media(min-width: $sm)
-          font-size: 1.3rem
-        @media(min-width: $lg)
-          font-size: 1.6rem
+      transition: all 350ms
+      list-style-type: decimal
+      list-style-position: inside
+      margin-left: 20px
+      margin-bottom: 5px
+      @media(min-width: $sm)
+        font-size: 1.3rem
+      @media(min-width: $lg)
+        font-size: 1.6rem
 
   &link
+    transition: all 350ms
     display: flex
     flex-flow: row
     justify-content: space-evenly
@@ -76,8 +94,11 @@
       padding-bottom: 20px
     @media(min-width: $lg)
       padding: 0
+    @media(min-width: $el)
+      width: 630px
 
     &-c
+      transition: all 350ms
       text-align: center
       display: flex
       flex-flow: column
@@ -85,13 +106,17 @@
       width: 58px
       @media(min-width: $sm)
         width: 104px
+      @media(min-width: $el)
+        padding-bottom: 25px
 
     &-p
+      transition: all 350ms
       margin-top: 5px
       @media(min-width: $sm)
         font-size: 1.2rem
 
     &-bk
+      transition: all 350ms
       border: 1px solid #5db442
       border-radius: 50%
       width: 34px
@@ -99,8 +124,7 @@
       display: flex
       justify-content: center
       align-items: center
-      background: #f7f7f7
-      transition: 350ms transform
+      background: #ffffff
       @media(min-width: $sm)
         width: 40px
         height: 40px

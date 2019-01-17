@@ -1,17 +1,22 @@
 .h__
+  transition: all 350ms
   display: flex
   flex-flow: column-reverse
   background: #282828
   @media(min-width: $sm)
     flex-flow: row
     justify-content: space-between
+  @media(min-width: $el)
+    justify-content: space-around
 
   &social
+    transition: all 350ms
     margin-top: 18px
     @media(min-width: $sm)
       margin-top: 0
 
     & svg
+      transition: all 350ms
       width: 18px
       height: 18px
       @media(min-width: $md)
@@ -22,6 +27,7 @@
         height: 13px
 
     & a
+      transition: all 350ms
       @media(min-width: $sm)
         margin-right: 12px
       @media(min-width: $md)
@@ -29,6 +35,7 @@
 
   &social,
   &contact
+    transition: all 350ms
     display: flex
     justify-content: space-between
     align-items: baseline
@@ -37,6 +44,7 @@
       align-items: unset
 
     & svg
+      transition: all 350ms
       fill: #ffffff
 
     &-tel
@@ -49,11 +57,13 @@
 
     &-tel, 
     &-eml
+      transition: all 350ms
       display: flex
       align-items: center
       color: white
       
       &--text
+        transition: all 350ms
         padding-left: 5px
         @media(min-width: $md)
           font-size: 1.3rem

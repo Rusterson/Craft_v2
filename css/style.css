@@ -28,6 +28,7 @@ button {
   padding: 5%;
   margin: auto;
   text-align: center;
+  transition: all 350ms;
 }
 @media (min-width: 576px) {
   .container {
@@ -39,8 +40,14 @@ button {
     padding: 15px 8%;
   }
 }
+@media (min-width: 1200px) {
+  .container {
+    padding: 12px 8%;
+  }
+}
 
 .s__ {
+  transition: all 350ms;
   background: #4ca368;
 }
 @media (min-width: 992px) {
@@ -48,7 +55,15 @@ button {
     padding: 100px;
   }
 }
+@media (min-width: 1200px) {
+  .s__ {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+}
 .s__title {
+  transition: all 350ms;
   padding-bottom: 5px;
 }
 @media (min-width: 576px) {
@@ -66,6 +81,12 @@ button {
   .s__title {
     font-size: 4rem;
     padding: 0;
+    font-weight: 300;
+  }
+}
+@media (min-width: 1200px) {
+  .s__title {
+    font-size: 4.8rem;
   }
 }
 .s__text, .s__text-2 {
@@ -81,7 +102,14 @@ button {
     font-size: 1.6rem;
   }
 }
+@media (min-width: 1200px) {
+  .s__text {
+    width: 820px;
+    margin: 12px 0;
+  }
+}
 .s__text-2 {
+  transition: all 350ms;
   color: #ffffff;
 }
 @media (min-width: 576px) {
@@ -101,6 +129,7 @@ button {
   }
 }
 .s__img {
+  transition: all 350ms;
   margin: 5px 0;
 }
 @media (min-width: 768px) {
@@ -109,6 +138,7 @@ button {
   }
 }
 .s__img img {
+  transition: all 350ms;
   width: 60%;
 }
 @media (min-width: 992px) {
@@ -116,7 +146,13 @@ button {
     width: 70%;
   }
 }
+@media (min-width: 1200px) {
+  .s__img img {
+    width: unset;
+  }
+}
 .s__box {
+  transition: all 350ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -127,7 +163,13 @@ button {
     margin-bottom: 10px;
   }
 }
+@media (min-width: 1200px) {
+  .s__box {
+    margin: 20px 0;
+  }
+}
 .s__box--inp {
+  transition: all 350ms;
   height: 22px;
   border-radius: 20px 0 0 20px;
   border: 1px solid #37804e;
@@ -161,6 +203,7 @@ button {
   }
 }
 .s__box--btn {
+  transition: all 350ms;
   color: #ffffff;
   height: 24px;
   border-radius: 0 20px 20px 0;
@@ -193,6 +236,7 @@ button {
 }
 
 .h__ {
+  transition: all 350ms;
   display: flex;
   flex-flow: column-reverse;
   background: #282828;
@@ -203,7 +247,13 @@ button {
     justify-content: space-between;
   }
 }
+@media (min-width: 1200px) {
+  .h__ {
+    justify-content: space-around;
+  }
+}
 .h__social {
+  transition: all 350ms;
   margin-top: 18px;
 }
 @media (min-width: 576px) {
@@ -212,6 +262,7 @@ button {
   }
 }
 .h__social svg {
+  transition: all 350ms;
   width: 18px;
   height: 18px;
 }
@@ -227,6 +278,9 @@ button {
     height: 13px;
   }
 }
+.h__social a {
+  transition: all 350ms;
+}
 @media (min-width: 576px) {
   .h__social a {
     margin-right: 12px;
@@ -238,6 +292,7 @@ button {
   }
 }
 .h__social, .h__contact {
+  transition: all 350ms;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -249,6 +304,7 @@ button {
   }
 }
 .h__social svg, .h__contact svg {
+  transition: all 350ms;
   fill: #ffffff;
 }
 @media (min-width: 576px) {
@@ -267,11 +323,13 @@ button {
   }
 }
 .h__social-tel, .h__social-eml, .h__contact-tel, .h__contact-eml {
+  transition: all 350ms;
   display: flex;
   align-items: center;
   color: white;
 }
 .h__social-tel--text, .h__social-eml--text, .h__contact-tel--text, .h__contact-eml--text {
+  transition: all 350ms;
   padding-left: 5px;
 }
 @media (min-width: 768px) {
@@ -286,7 +344,8 @@ button {
 }
 
 .n__ {
-  background: #f7f7f7;
+  transition: all 350ms;
+  background: #ffffff;
 }
 @media (min-width: 576px) {
   .n__ {
@@ -296,7 +355,13 @@ button {
     justify-content: space-between;
   }
 }
+@media (min-width: 1200px) {
+  .n__ {
+    justify-content: space-around;
+  }
+}
 .n__logo {
+  transition: all 350ms;
   color: #636666;
   font-size: 3.5rem;
 }
@@ -306,6 +371,7 @@ button {
   }
 }
 .n__menus {
+  transition: all 350ms;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -318,6 +384,7 @@ button {
   }
 }
 .n__menus a {
+  transition: all 350ms;
   font-size: 1.5em;
   width: 68px;
   font-weight: 300;
@@ -325,7 +392,6 @@ button {
   border: 0.5px solid #5db442;
   border-radius: 20px;
   padding: 2px 0;
-  transition: all 350ms;
 }
 @media (min-width: 576px) {
   .n__menus a {
@@ -361,6 +427,7 @@ button {
 }
 
 .hr__ {
+  transition: all 350ms;
   background-image: url("../img/bk-img.png");
 }
 @media (min-width: 992px) {
@@ -368,10 +435,19 @@ button {
     padding: 100px;
   }
 }
+@media (min-width: 1200px) {
+  .hr__ {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+}
 .hr__ svg {
+  transition: all 350ms;
   fill: #5db442;
 }
 .hr__title {
+  transition: all 350ms;
   padding-bottom: 5px;
 }
 @media (min-width: 576px) {
@@ -389,11 +465,18 @@ button {
   .hr__title {
     padding: 0;
     font-size: 4rem;
+    font-weight: 300;
+  }
+}
+@media (min-width: 1200px) {
+  .hr__title {
+    font-size: 4.8rem;
   }
 }
 .hr__box {
+  transition: all 350ms;
   border: 1px solid #f1f1f1;
-  background: #f7f7f7;
+  background: #ffffff;
   box-shadow: 0 0 20px 2px #d6d6d6;
   margin: 15px 8%;
   padding: 25px;
@@ -409,12 +492,19 @@ button {
     padding: 90px;
   }
 }
+@media (min-width: 1200px) {
+  .hr__box {
+    width: 630px;
+  }
+}
 .hr__box-in {
+  transition: all 350ms;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .hr__box--title {
+  transition: all 350ms;
   color: #5db442;
   font-weight: 300;
   font-size: 1.3em;
@@ -432,6 +522,7 @@ button {
   }
 }
 .hr__box--ico {
+  transition: all 350ms;
   position: absolute;
   width: 37px;
   margin-left: -90px;
@@ -454,6 +545,7 @@ button {
   }
 }
 .hr__box--list li {
+  transition: all 350ms;
   list-style-type: decimal;
   list-style-position: inside;
   margin-left: 20px;
@@ -470,6 +562,7 @@ button {
   }
 }
 .hr__link {
+  transition: all 350ms;
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
@@ -484,7 +577,13 @@ button {
     padding: 0;
   }
 }
+@media (min-width: 1200px) {
+  .hr__link {
+    width: 630px;
+  }
+}
 .hr__link-c {
+  transition: all 350ms;
   text-align: center;
   display: flex;
   flex-flow: column;
@@ -496,7 +595,13 @@ button {
     width: 104px;
   }
 }
+@media (min-width: 1200px) {
+  .hr__link-c {
+    padding-bottom: 25px;
+  }
+}
 .hr__link-p {
+  transition: all 350ms;
   margin-top: 5px;
 }
 @media (min-width: 576px) {
@@ -505,6 +610,7 @@ button {
   }
 }
 .hr__link-bk {
+  transition: all 350ms;
   border: 1px solid #5db442;
   border-radius: 50%;
   width: 34px;
@@ -512,8 +618,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f7f7f7;
-  transition: 350ms transform;
+  background: #ffffff;
 }
 @media (min-width: 576px) {
   .hr__link-bk {
@@ -546,12 +651,16 @@ button {
 }
 
 .of__ {
+  transition: all 350ms;
   background: #ffffff;
 }
 @media (min-width: 992px) {
   .of__ {
     padding: 100px;
   }
+}
+.of__title {
+  transition: all 350ms;
 }
 @media (min-width: 576px) {
   .of__title {
@@ -567,10 +676,17 @@ button {
 @media (min-width: 992px) {
   .of__title {
     padding: 0;
+    font-weight: 300;
     font-size: 4rem;
   }
 }
+@media (min-width: 1200px) {
+  .of__title {
+    font-size: 4.8rem;
+  }
+}
 .of__btn {
+  transition: all 350ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -588,6 +704,7 @@ button {
   }
 }
 .of__btn-m {
+  transition: all 350ms;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -607,13 +724,13 @@ button {
   }
 }
 .of__btn-l, .of__btn-r {
+  transition: all 350ms;
   display: flex;
   width: 124px;
   height: 24px;
   border: 1px solid #5db442;
   align-items: center;
   justify-content: center;
-  transition: all 350ms;
 }
 @media (min-width: 768px) {
   .of__btn-l, .of__btn-r {
@@ -637,6 +754,7 @@ button {
   border-left: none;
 }
 .of__prices {
+  transition: all 350ms;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -658,19 +776,27 @@ button {
     width: 220px;
   }
 }
+@media (min-width: 1200px) {
+  .of__prices {
+    width: 270px;
+  }
+}
+.of__prices-fm {
+  transition: all 350ms;
+}
 @media (min-width: 768px) {
   .of__prices-fm {
     padding: 15px 0;
   }
 }
 .of__prices--btn {
+  transition: all 350ms;
   border: 1px solid #ececec;
   border-radius: 20px;
   font-size: 0.8em;
   background: #ffffff;
   padding: 3px;
   margin-bottom: 5px;
-  transition: all 350ms;
 }
 @media (min-width: 576px) {
   .of__prices--btn {
@@ -695,6 +821,7 @@ button {
   color: #ffffff;
 }
 .of__prices-title {
+  transition: all 350ms;
   height: 40px;
 }
 @media (min-width: 576px) {
@@ -719,6 +846,7 @@ button {
   border-top: 2px solid #5db442;
 }
 .of__prices-pric {
+  transition: all 350ms;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -752,6 +880,7 @@ button {
   }
 }
 .of__prices-pric--v {
+  transition: all 350ms;
   font-size: 1.5em;
 }
 @media (min-width: 576px) {
@@ -771,6 +900,7 @@ button {
   }
 }
 .of__prices-pric--t {
+  transition: all 350ms;
   font-size: 0.5em;
   font-weight: 300;
   font-style: italic;
@@ -786,6 +916,7 @@ button {
   }
 }
 .of__prices-list {
+  transition: all 350ms;
   border-top: 1px solid #ececec;
   padding-top: 30px;
   width: 100%;
@@ -806,6 +937,7 @@ button {
   }
 }
 .of__prices-list li {
+  transition: all 350ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -818,6 +950,7 @@ button {
   }
 }
 .of__prices-list svg {
+  transition: all 350ms;
   width: 7px;
   height: 7px;
 }
@@ -834,6 +967,7 @@ button {
   }
 }
 .of__prices-list p {
+  transition: all 350ms;
   font-size: 0.7em;
   margin-bottom: 6px;
   margin-left: 3px;
@@ -854,6 +988,7 @@ button {
   }
 }
 .of__box {
+  transition: all 350ms;
   background: #ffffff;
   display: flex;
   justify-content: space-evenly;
@@ -876,6 +1011,7 @@ button {
 }
 
 .ot__ {
+  transition: all 350ms;
   background-image: url("../img/bk-img.png");
 }
 @media (min-width: 992px) {
@@ -883,7 +1019,15 @@ button {
     padding: 100px;
   }
 }
+@media (min-width: 1200px) {
+  .ot__ {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+}
 .ot__title {
+  transition: all 350ms;
   padding: 5px 0;
   font-size: 1.63rem;
 }
@@ -900,11 +1044,18 @@ button {
 }
 @media (min-width: 992px) {
   .ot__title {
+    font-weight: 300;
     padding: 0;
     font-size: 4rem;
   }
 }
+@media (min-width: 1200px) {
+  .ot__title {
+    font-size: 4.8rem;
+  }
+}
 .ot__box {
+  transition: all 350ms;
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
@@ -925,13 +1076,18 @@ button {
     margin: 45px 0 0 0;
   }
 }
+@media (min-width: 1200px) {
+  .ot__box {
+    width: 83%;
+  }
+}
 .ot__box-item {
+  transition: all 350ms;
   background: #ffffff;
   width: 32%;
   padding: 5px;
   box-shadow: 1px 1px 4px 1px #e2e2e2;
   margin-bottom: 15px;
-  transition: all 350ms;
 }
 @media (min-width: 576px) {
   .ot__box-item {
@@ -954,6 +1110,7 @@ button {
 }
 .ot__box-item:hover svg {
   fill: #ffffff;
+  border-color: #ffffff;
 }
 .ot__box-item--title {
   font-size: 1.1em;
@@ -984,12 +1141,19 @@ button {
     padding: 10px;
   }
 }
+@media (min-width: 1200px) {
+  .ot__box-item--text {
+    padding: 25px;
+  }
+}
 .ot__box-item--ico {
+  transition: all 350ms;
+  border-bottom: 2px solid #e1e2e3;
+  padding-bottom: 10px;
   margin: 5px 0;
   fill: #5db442;
   width: 35px;
   height: 35px;
-  transition: all 350ms;
 }
 @media (min-width: 576px) {
   .ot__box-item--ico {
@@ -1006,6 +1170,7 @@ button {
 }
 
 .lk__ {
+  transition: all 350ms;
   background: #efefef;
   display: flex;
   flex-flow: wrap;
@@ -1021,11 +1186,18 @@ button {
     padding-top: 70px;
   }
 }
+@media (min-width: 1200px) {
+  .lk__ {
+    justify-content: space-around;
+  }
+}
 .lk__box {
+  transition: all 350ms;
   text-align: left;
   padding: 5px;
 }
 .lk__box-title {
+  transition: all 350ms;
   font-size: 1.2em;
 }
 @media (min-width: 576px) {
@@ -1039,6 +1211,7 @@ button {
   }
 }
 .lk__box-item {
+  transition: all 350ms;
   font-weight: 300;
   font-size: 0.8em;
   margin: 5px 0;
@@ -1057,6 +1230,7 @@ button {
   }
 }
 .lk__inp {
+  transition: all 350ms;
   display: flex;
   flex-flow: column;
   margin: 0 10% 15px 10%;
@@ -1069,6 +1243,9 @@ button {
     align-items: baseline;
   }
 }
+.lk__inp-title {
+  transition: all 350ms;
+}
 @media (min-width: 576px) {
   .lk__inp-title {
     font-size: 1.5rem;
@@ -1080,12 +1257,14 @@ button {
   }
 }
 .lk__inp-box {
+  transition: all 350ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
   padding: 5px 0;
 }
 .lk__inp--inp {
+  transition: all 350ms;
   height: 24px;
   padding-left: 10px;
 }
@@ -1099,6 +1278,7 @@ button {
   font-style: italic;
 }
 .lk__inp--btn {
+  transition: all 350ms;
   background: #5db442;
   position: relative;
   width: 30px;
@@ -1111,6 +1291,7 @@ button {
   }
 }
 .lk__inp--btn:before, .lk__inp--btn:after {
+  transition: all 350ms;
   content: "";
   display: block;
   background: #ffffff;
@@ -1144,6 +1325,7 @@ button {
   }
 }
 .lk__inp-text {
+  transition: all 350ms;
   font-weight: 300;
   padding: 5px 0;
 }
@@ -1159,8 +1341,17 @@ button {
 }
 
 .ft__ {
+  transition: all 350ms;
   background: #efefef;
   border-top: 1px solid #e1e2e3;
+}
+@media (min-width: 1200px) {
+  .ft__ {
+    padding: 15px 12%;
+  }
+}
+.ft__box {
+  transition: all 350ms;
 }
 @media (min-width: 576px) {
   .ft__box {
@@ -1175,6 +1366,7 @@ button {
   }
 }
 .ft__logo {
+  transition: all 350ms;
   color: #636666;
   padding-bottom: 5px;
 }
@@ -1191,6 +1383,7 @@ button {
   }
 }
 .ft__regi {
+  transition: all 350ms;
   font-weight: 300;
   font-size: 0.9em;
 }

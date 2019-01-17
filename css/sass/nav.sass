@@ -1,18 +1,23 @@
 .n__
-  background: #f7f7f7
+  transition: all 350ms
+  background: #ffffff
   @media(min-width: $sm)
     display: flex
     flex-direction: row
     align-items: center
     justify-content: space-between
+  @media(min-width: $el)
+    justify-content: space-around
 
   &logo
+    transition: all 350ms
     color: #636666
     font-size: 3.5rem
     @media(min-width: $sm)
       font-size: 3rem
 
   &menus
+    transition: all 350ms
     display: flex
     flex-flow: row
     justify-content: space-between
@@ -22,6 +27,7 @@
       margin: 0
 
     & a
+      transition: all 350ms
       font-size: 1.5em
       width: 68px
       font-weight: 300
@@ -29,7 +35,6 @@
       border: 0.5px solid #5db442
       border-radius: 20px
       padding: 2px 0
-      transition: all 350ms
       @media(min-width: $sm)
         margin-left: 5px
       @media(min-width: $md)

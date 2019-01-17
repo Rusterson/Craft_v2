@@ -1,8 +1,12 @@
 .ft__
+  transition: all 350ms
   background: #efefef
   border-top: 1px solid #e1e2e3
+  @media(min-width: $el)
+    padding: 15px 12%
 
   &box
+    transition: all 350ms
     @media(min-width: $sm)
       padding: 20px 0
     @media(min-width: $md)
@@ -11,6 +15,7 @@
       justify-content: space-between
 
   &logo
+    transition: all 350ms
     color: #636666
     padding-bottom: 5px
     @media(min-width: $sm)
@@ -21,6 +26,7 @@
       padding: 0
 
   &regi
+    transition: all 350ms
     font-weight: 300
     font-size: 0.9em
     @media(min-width: $sm)
