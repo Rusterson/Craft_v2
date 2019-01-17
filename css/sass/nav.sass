@@ -31,3 +31,17 @@
       padding: 2px 0
       @media(min-width: $sm)
         margin-left: 5px
+      @media(min-width: $md)
+        color: #333333
+        font-weight: 400
+        border: 1px solid transparent
+        border-radius: 20px
+        padding: 3px 6px
+        transition: all 350ms
+
+      &:hover
+        @media(min-width: $md)
+          border-color: #5db442
+          color: #5db442
+          background: #f7f7f7
+

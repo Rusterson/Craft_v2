@@ -6,6 +6,8 @@
     @media(min-width: $sm)
       font-size: 2.5rem
       font-weight: 400
+    @media(min-width: $md)
+      padding-top: 20px
 
   &text,
   &text-2
@@ -19,9 +21,13 @@
     color: #ffffff
     @media(min-width: $sm)
       font-size: 1.3rem
+    @media(min-width: $md)
+      padding-bottom: 20px
   
   &img
     margin: 5px 0
+    @media(min-width: $md)
+      margin: 10px 0
 
     & img
       width: 60%
@@ -31,6 +37,8 @@
     flex-flow: row
     justify-content: center
     margin-bottom: 5px
+    @media(min-width: $md)
+      margin-bottom: 10px
 
     &--inp
       height: 22px
@@ -40,6 +48,10 @@
       text-align: center
       @media(min-width: $sm)
         height: 26px
+      @media(min-width: $md)
+        height: 28px
+        border-width: 2px
+        width: 28%
 
       &::placeholder
         font-size: 11px
@@ -53,6 +65,10 @@
       background: #37804e
       font-size: 1em
       padding: 2px
+      cursor: pointer
       @media(min-width: $sm)
         height: 28px
-
+      @media(min-width: $md)
+        height: 32px
+        border-width: 2px
+        padding: 0 10px

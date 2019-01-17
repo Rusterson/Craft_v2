@@ -5,6 +5,8 @@
     @media(min-width: $sm)
       font-size: 2.5rem
       font-weight: 400
+    @media(min-width: $md)
+      padding-top: 20px
 
   &btn
     display: flex
@@ -26,15 +28,24 @@
       position: absolute
       color: #f7f7f7
       font-size: 0.8em
+      @media(min-width: $md)
+        width: 24px
+        height: 24px
+        font-size: 1.3rem
 
     &-l,
     &-r
       display: flex
       width: 124px
       height: 24px
-      border: 1px solid #4ca368
+      border: 1px solid #5db442
       align-items: center
       justify-content: center
+      transition: all 350ms
+      @media(min-width: $md)
+        width: 141.5px
+        height: 28px
+        font-size: 1.3rem
 
       &:hover
         background: #5db442
@@ -58,6 +69,13 @@
     width: 127px
     @media(min-width: $sm)
       width: 135px
+    @media(min-width: $md)
+      width: 180px
+
+    &-fm
+      @media(min-width: $md)
+        padding: 15px 0
+
 
     &--btn
       border:1px solid #ececec
@@ -66,9 +84,12 @@
       background: #ffffff
       padding: 3px
       margin-bottom: 5px
+      transition: all 350ms
       @media(min-width: $sm)
         font-size: 1rem
         padding: 6px 12px
+      @media(min-width: $md)
+        width: 95px
       
       &:hover
         background: #5db442
@@ -79,6 +100,8 @@
       @media(min-width: $sm)
         height: 50px
         font-size: 1.5rem
+      @media(min-width: $md)
+        height: 60px
 
       & js--set // Javascript here 
         border-top: 2px solid #5db442
@@ -98,11 +121,17 @@
       @media(min-width: $sm)
         width: 60px
         height: 60px
+      @media(min-width: $md)
+        width: 75px
+        height: 75px
+        margin-top: 25px
 
       &--v
         font-size: 1.5em
         @media(min-width: $sm)
           font-size: 1.8rem
+        @media(min-width: $md)
+          font-size: 2.4rem
 
       &--t
         font-size: 0.5em
@@ -110,6 +139,8 @@
         font-style: italic
         @media(min-width: $sm)
           font-size: 0.9rem
+        @media(min-width: $md)
+          font-size: 1rem
 
     &-list
       border-top: 1px solid #ececec
@@ -117,6 +148,8 @@
       width: 100%
       @media(min-width: $sm)
         padding-top: 40px
+      @media(min-width: $md)
+        padding-top: 60px
 
       & li
         display: flex
@@ -124,6 +157,8 @@
         justify-content: center
         text-align: center
         padding: 2px
+        @media(min-width: $sm)
+          align-items: baseline
 
       & svg
         width: 7px
@@ -131,6 +166,9 @@
         @media(min-width: $sm)
           width: 8px
           height: 8px
+        @media(min-width: $md)
+          width: unset
+          height: unset
 
       & p
         font-size: 0.7em
@@ -138,6 +176,8 @@
         margin-left: 3px
         @media(min-width: $sm)
           font-size: 1rem
+        @media(min-width: $md)
+          font-size: 1.3rem
 
 
 
@@ -148,3 +188,5 @@
     margin-top: 10px
     @media(min-width: $sm)
       margin-top: 15px
+    @media(min-width: $md)
+      margin: 25px 0
