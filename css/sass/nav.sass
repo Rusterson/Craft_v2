@@ -29,6 +29,7 @@
       border: 0.5px solid #5db442
       border-radius: 20px
       padding: 2px 0
+      transition: all 350ms
       @media(min-width: $sm)
         margin-left: 5px
       @media(min-width: $md)
@@ -37,7 +38,14 @@
         border: 1px solid transparent
         border-radius: 20px
         padding: 3px 6px
-        transition: all 350ms
+      @media(min-width: $lg)
+        padding: unset
+        font-size: 1.4rem
+        display: flex
+        width: 100px
+        height: 26px
+        align-items: center
+        justify-content: center
 
       &:hover
         @media(min-width: $md)

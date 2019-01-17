@@ -5,6 +5,8 @@
   justify-content: space-around
   @media(min-width: $sm)
     justify-content: space-between
+  @media(min-width: $lg)
+    padding-top: 70px
 
   &box
     text-align: left
@@ -14,6 +16,8 @@
       font-size: 1.2em
       @media(min-width: $sm)
         font-size: 1.5rem
+      @media(min-width: $lg)
+        font-size: 1.6rem
 
     &-item
       font-weight: 300
@@ -21,6 +25,12 @@
       margin: 5px 0
       @media(min-width: $sm)
         font-size: 1rem
+      @media(min-width: $lg)
+        margin: 0
+        font-size: 1.3rem
+        line-height: 32px
+        font-weight: 400
+        
 
   &inp
     display: flex
@@ -35,6 +45,8 @@
     &-title
       @media(min-width: $sm)
         font-size: 1.5rem
+      @media(min-width: $lg)
+        font-size: 1.6rem
 
     &-box
       display: flex
@@ -43,13 +55,24 @@
       padding: 5px 0
 
     &--inp
-        height: 24px
+      height: 24px
+      padding-left: 10px
+      @media(min-width: $lg)
+        height: 45px
+        width: 280px
+      
+      &::placeholder
+        font-style: italic
 
     &--btn
       background: #5db442
       position: relative
       width: 30px
       height: 24px
+      @media(min-width: $lg)
+        width: 55px
+        height: 45px
+
 
       &:before,
       &:after
@@ -60,19 +83,28 @@
         height: 2px
         position: absolute
         left: 43%
+        @media(min-width: $lg)
+          width: 12px
+          height: 3px
 
       &:after
         top: 10px
         transform: rotateZ(45deg)
+        @media(min-width: $lg)
+          top: 16px
 
       &:before
         transform: rotateZ(-45deg)
         top: 14px
+        @media(min-width: $lg)
+          top: 23px
         
     &-text
       font-weight: 300
       padding: 5px 0
       @media(min-width: $sm)
         font-size: 1.2rem
+      @media(min-width: $lg)
+        font-weight: 400
 
 

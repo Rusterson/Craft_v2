@@ -1,5 +1,7 @@
 .ot__
   background-image: url('../img/bk-img.png')
+  @media(min-width: $lg)
+    padding: 100px
 
   &title
     padding: 5px 0
@@ -9,6 +11,9 @@
       font-weight: 400
     @media(min-width: $md)
       padding-top: 20px
+    @media(min-width: $lg)
+      padding: 0
+      font-size: 4rem
 
   &box
     display: flex
@@ -19,6 +24,8 @@
       margin-top: 15px
     @media(min-width: $md)
       margin: 25px 0
+    @media(min-width: $lg)
+      margin: 45px 0 0 0
 
     &-item
       background: #ffffff       
@@ -46,6 +53,8 @@
         @media(min-width: $sm)
           font-size: 1.5rem
           font-weight: 400
+        @media(min-width: $lg)
+          font-size: 1.6rem
 
       &--text
         margin-top: 5px
