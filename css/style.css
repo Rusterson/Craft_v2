@@ -174,7 +174,8 @@ button {
   border-radius: 20px 0 0 20px;
   border: 1px solid #37804e;
   border-right: none;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
 }
 @media (min-width: 576px) {
   .s__box--inp {
@@ -185,12 +186,10 @@ button {
   .s__box--inp {
     height: 28px;
     border-width: 2px;
-    width: 28%;
   }
 }
 @media (min-width: 992px) {
   .s__box--inp {
-    width: 210px;
     height: 35px;
   }
 }
@@ -327,6 +326,7 @@ button {
   display: flex;
   align-items: center;
   color: white;
+  cursor: default;
 }
 .h__social-tel--text, .h__social-eml--text, .h__contact-tel--text, .h__contact-eml--text {
   transition: all 350ms;
@@ -747,13 +747,16 @@ button {
   border-radius: 20px 0 0 20px;
   background: #f7f7f7;
   border-right: none;
+  cursor: pointer;
 }
 .of__btn-r {
+  cursor: pointer;
   border-radius: 0 20px 20px 0;
   background: #f7f7f7;
   border-left: none;
 }
 .of__prices {
+  cursor: unset;
   transition: all 350ms;
   display: flex;
   flex-flow: column;
@@ -790,6 +793,7 @@ button {
   }
 }
 .of__prices--btn {
+  cursor: pointer;
   transition: all 350ms;
   border: 1px solid #ececec;
   border-radius: 20px;
@@ -1215,6 +1219,10 @@ button {
   font-weight: 300;
   font-size: 0.8em;
   margin: 5px 0;
+  cursor: pointer;
+}
+.lk__box-item:hover {
+  text-decoration: underline;
 }
 @media (min-width: 576px) {
   .lk__box-item {
@@ -1283,6 +1291,7 @@ button {
   position: relative;
   width: 30px;
   height: 24px;
+  cursor: pointer;
 }
 @media (min-width: 992px) {
   .lk__inp--btn {
