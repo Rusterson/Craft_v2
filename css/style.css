@@ -428,7 +428,7 @@ button {
 
 .hr__ {
   transition: all 350ms;
-  background-image: url("../img/bk-img.png");
+  background-image: url("../img/bg-img.png");
 }
 @media (min-width: 992px) {
   .hr__ {
@@ -1016,7 +1016,7 @@ button {
 
 .ot__ {
   transition: all 350ms;
-  background-image: url("../img/bk-img.png");
+  background-image: url("../img/bg-img.png");
 }
 @media (min-width: 992px) {
   .ot__ {
@@ -1292,6 +1292,9 @@ button {
   width: 30px;
   height: 24px;
   cursor: pointer;
+  transition: all 350ms;
+  font-weight: 300;
+  padding: 5px 0;
 }
 @media (min-width: 992px) {
   .lk__inp--btn {
@@ -1333,18 +1336,13 @@ button {
     top: 23px;
   }
 }
-.lk__inp-text {
-  transition: all 350ms;
-  font-weight: 300;
-  padding: 5px 0;
-}
 @media (min-width: 576px) {
-  .lk__inp-text {
+  .lk__inp--btn {
     font-size: 1.2rem;
   }
 }
 @media (min-width: 992px) {
-  .lk__inp-text {
+  .lk__inp--btn {
     font-weight: 400;
   }
 }
