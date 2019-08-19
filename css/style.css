@@ -28,7 +28,7 @@ button {
   padding: 5%;
   margin: auto;
   text-align: center;
-  transition: all 350ms;
+  transition: all 333ms;
 }
 @media (min-width: 576px) {
   .container {
@@ -47,7 +47,7 @@ button {
 }
 
 .s__ {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #4ca368;
 }
 @media (min-width: 992px) {
@@ -63,7 +63,7 @@ button {
   }
 }
 .s__title {
-  transition: all 350ms;
+  transition: all 333ms;
   padding-bottom: 5px;
 }
 @media (min-width: 576px) {
@@ -109,7 +109,7 @@ button {
   }
 }
 .s__text-2 {
-  transition: all 350ms;
+  transition: all 333ms;
   color: #ffffff;
 }
 @media (min-width: 576px) {
@@ -129,7 +129,7 @@ button {
   }
 }
 .s__img {
-  transition: all 350ms;
+  transition: all 333ms;
   margin: 5px 0;
 }
 @media (min-width: 768px) {
@@ -138,7 +138,7 @@ button {
   }
 }
 .s__img img {
-  transition: all 350ms;
+  transition: all 333ms;
   width: 60%;
 }
 @media (min-width: 992px) {
@@ -152,7 +152,7 @@ button {
   }
 }
 .s__box {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -169,7 +169,7 @@ button {
   }
 }
 .s__box--inp {
-  transition: all 350ms;
+  transition: all 333ms;
   height: 22px;
   border-radius: 20px 0 0 20px;
   border: 1px solid #37804e;
@@ -202,7 +202,7 @@ button {
   }
 }
 .s__box--btn {
-  transition: all 350ms;
+  transition: all 333ms;
   color: #ffffff;
   height: 24px;
   border-radius: 0 20px 20px 0;
@@ -235,7 +235,7 @@ button {
 }
 
 .h__ {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: column-reverse;
   background: #282828;
@@ -252,7 +252,7 @@ button {
   }
 }
 .h__social {
-  transition: all 350ms;
+  transition: all 333ms;
   margin-top: 18px;
 }
 @media (min-width: 576px) {
@@ -261,7 +261,7 @@ button {
   }
 }
 .h__social svg {
-  transition: all 350ms;
+  transition: all 333ms;
   width: 18px;
   height: 18px;
 }
@@ -278,7 +278,7 @@ button {
   }
 }
 .h__social a {
-  transition: all 350ms;
+  transition: all 333ms;
 }
 @media (min-width: 576px) {
   .h__social a {
@@ -291,7 +291,7 @@ button {
   }
 }
 .h__social, .h__contact {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -303,7 +303,7 @@ button {
   }
 }
 .h__social svg, .h__contact svg {
-  transition: all 350ms;
+  transition: all 333ms;
   fill: #ffffff;
 }
 @media (min-width: 576px) {
@@ -322,14 +322,14 @@ button {
   }
 }
 .h__social-tel, .h__social-eml, .h__contact-tel, .h__contact-eml {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   align-items: center;
   color: white;
   cursor: default;
 }
 .h__social-tel--text, .h__social-eml--text, .h__contact-tel--text, .h__contact-eml--text {
-  transition: all 350ms;
+  transition: all 333ms;
   padding-left: 5px;
 }
 @media (min-width: 768px) {
@@ -344,7 +344,7 @@ button {
 }
 
 .n__ {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #ffffff;
 }
 @media (min-width: 576px) {
@@ -361,7 +361,7 @@ button {
   }
 }
 .n__logo {
-  transition: all 350ms;
+  transition: all 333ms;
   color: #636666;
   font-size: 3.5rem;
 }
@@ -371,7 +371,7 @@ button {
   }
 }
 .n__menus {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -384,7 +384,7 @@ button {
   }
 }
 .n__menus a {
-  transition: all 350ms;
+  transition: all 333ms;
   font-size: 1.5em;
   width: 68px;
   font-weight: 300;
@@ -427,7 +427,7 @@ button {
 }
 
 .hr__ {
-  transition: all 350ms;
+  transition: all 333ms;
   background-image: url("../img/bg-img.png");
 }
 @media (min-width: 992px) {
@@ -443,11 +443,11 @@ button {
   }
 }
 .hr__ svg {
-  transition: all 350ms;
+  transition: all 333ms;
   fill: #5db442;
 }
 .hr__title {
-  transition: all 350ms;
+  transition: all 333ms;
   padding-bottom: 5px;
 }
 @media (min-width: 576px) {
@@ -474,7 +474,7 @@ button {
   }
 }
 .hr__box {
-  transition: all 350ms;
+  transition: all 333ms;
   border: 1px solid #f1f1f1;
   background: #ffffff;
   box-shadow: 0 0 20px 2px #d6d6d6;
@@ -498,13 +498,13 @@ button {
   }
 }
 .hr__box-in {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .hr__box--title {
-  transition: all 350ms;
+  transition: all 333ms;
   color: #5db442;
   font-weight: 300;
   font-size: 1.3em;
@@ -522,7 +522,7 @@ button {
   }
 }
 .hr__box--ico {
-  transition: all 350ms;
+  transition: all 333ms;
   position: absolute;
   width: 37px;
   margin-left: -90px;
@@ -545,7 +545,7 @@ button {
   }
 }
 .hr__box--list li {
-  transition: all 350ms;
+  transition: all 333ms;
   list-style-type: decimal;
   list-style-position: inside;
   margin-left: 20px;
@@ -562,7 +562,7 @@ button {
   }
 }
 .hr__link {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: row;
   justify-content: space-evenly;
@@ -583,7 +583,7 @@ button {
   }
 }
 .hr__link-c {
-  transition: all 350ms;
+  transition: all 333ms;
   text-align: center;
   display: flex;
   flex-flow: column;
@@ -601,7 +601,7 @@ button {
   }
 }
 .hr__link-p {
-  transition: all 350ms;
+  transition: all 333ms;
   margin-top: 5px;
 }
 @media (min-width: 576px) {
@@ -610,7 +610,7 @@ button {
   }
 }
 .hr__link-bk {
-  transition: all 350ms;
+  transition: all 333ms;
   border: 1px solid #5db442;
   border-radius: 50%;
   width: 34px;
@@ -651,7 +651,7 @@ button {
 }
 
 .of__ {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #ffffff;
 }
 @media (min-width: 992px) {
@@ -660,7 +660,7 @@ button {
   }
 }
 .of__title {
-  transition: all 350ms;
+  transition: all 333ms;
 }
 @media (min-width: 576px) {
   .of__title {
@@ -686,7 +686,7 @@ button {
   }
 }
 .of__btn {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -704,7 +704,7 @@ button {
   }
 }
 .of__btn-m {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -724,7 +724,7 @@ button {
   }
 }
 .of__btn-l, .of__btn-r {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   width: 124px;
   height: 24px;
@@ -757,7 +757,7 @@ button {
 }
 .of__prices {
   cursor: unset;
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -785,7 +785,7 @@ button {
   }
 }
 .of__prices-fm {
-  transition: all 350ms;
+  transition: all 333ms;
 }
 @media (min-width: 768px) {
   .of__prices-fm {
@@ -794,7 +794,7 @@ button {
 }
 .of__prices--btn {
   cursor: pointer;
-  transition: all 350ms;
+  transition: all 333ms;
   border: 1px solid #ececec;
   border-radius: 20px;
   font-size: 0.8em;
@@ -825,7 +825,7 @@ button {
   color: #ffffff;
 }
 .of__prices-title {
-  transition: all 350ms;
+  transition: all 333ms;
   height: 40px;
 }
 @media (min-width: 576px) {
@@ -850,7 +850,7 @@ button {
   border-top: 2px solid #5db442;
 }
 .of__prices-pric {
-  transition: all 350ms;
+  transition: all 333ms;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -884,7 +884,7 @@ button {
   }
 }
 .of__prices-pric--v {
-  transition: all 350ms;
+  transition: all 333ms;
   font-size: 1.5em;
 }
 @media (min-width: 576px) {
@@ -904,7 +904,7 @@ button {
   }
 }
 .of__prices-pric--t {
-  transition: all 350ms;
+  transition: all 333ms;
   font-size: 0.5em;
   font-weight: 300;
   font-style: italic;
@@ -920,7 +920,7 @@ button {
   }
 }
 .of__prices-list {
-  transition: all 350ms;
+  transition: all 333ms;
   border-top: 1px solid #ececec;
   padding-top: 30px;
   width: 100%;
@@ -941,7 +941,7 @@ button {
   }
 }
 .of__prices-list li {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -954,7 +954,7 @@ button {
   }
 }
 .of__prices-list svg {
-  transition: all 350ms;
+  transition: all 333ms;
   width: 7px;
   height: 7px;
 }
@@ -971,7 +971,7 @@ button {
   }
 }
 .of__prices-list p {
-  transition: all 350ms;
+  transition: all 333ms;
   font-size: 0.7em;
   margin-bottom: 6px;
   margin-left: 3px;
@@ -992,7 +992,7 @@ button {
   }
 }
 .of__box {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #ffffff;
   display: flex;
   justify-content: space-evenly;
@@ -1015,7 +1015,7 @@ button {
 }
 
 .ot__ {
-  transition: all 350ms;
+  transition: all 333ms;
   background-image: url("../img/bg-img.png");
 }
 @media (min-width: 992px) {
@@ -1031,7 +1031,7 @@ button {
   }
 }
 .ot__title {
-  transition: all 350ms;
+  transition: all 333ms;
   padding: 5px 0;
   font-size: 1.63rem;
 }
@@ -1059,7 +1059,7 @@ button {
   }
 }
 .ot__box {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
@@ -1086,7 +1086,7 @@ button {
   }
 }
 .ot__box-item {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #ffffff;
   width: 32%;
   padding: 5px;
@@ -1151,7 +1151,7 @@ button {
   }
 }
 .ot__box-item--ico {
-  transition: all 350ms;
+  transition: all 333ms;
   border-bottom: 2px solid #e1e2e3;
   padding-bottom: 10px;
   margin: 5px 0;
@@ -1174,7 +1174,7 @@ button {
 }
 
 .lk__ {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #efefef;
   display: flex;
   flex-flow: wrap;
@@ -1196,12 +1196,12 @@ button {
   }
 }
 .lk__box {
-  transition: all 350ms;
+  transition: all 333ms;
   text-align: left;
   padding: 5px;
 }
 .lk__box-title {
-  transition: all 350ms;
+  transition: all 333ms;
   font-size: 1.2em;
 }
 @media (min-width: 576px) {
@@ -1215,7 +1215,7 @@ button {
   }
 }
 .lk__box-item {
-  transition: all 350ms;
+  transition: all 333ms;
   font-weight: 300;
   font-size: 0.8em;
   margin: 5px 0;
@@ -1238,7 +1238,7 @@ button {
   }
 }
 .lk__inp {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: column;
   margin: 0 10% 15px 10%;
@@ -1252,7 +1252,7 @@ button {
   }
 }
 .lk__inp-title {
-  transition: all 350ms;
+  transition: all 333ms;
 }
 @media (min-width: 576px) {
   .lk__inp-title {
@@ -1265,14 +1265,14 @@ button {
   }
 }
 .lk__inp-box {
-  transition: all 350ms;
+  transition: all 333ms;
   display: flex;
   flex-flow: row;
   justify-content: center;
   padding: 5px 0;
 }
 .lk__inp--inp {
-  transition: all 350ms;
+  transition: all 333ms;
   height: 24px;
   padding-left: 10px;
 }
@@ -1286,15 +1286,12 @@ button {
   font-style: italic;
 }
 .lk__inp--btn {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #5db442;
   position: relative;
   width: 30px;
   height: 24px;
   cursor: pointer;
-  transition: all 350ms;
-  font-weight: 300;
-  padding: 5px 0;
 }
 @media (min-width: 992px) {
   .lk__inp--btn {
@@ -1303,7 +1300,7 @@ button {
   }
 }
 .lk__inp--btn:before, .lk__inp--btn:after {
-  transition: all 350ms;
+  transition: all 333ms;
   content: "";
   display: block;
   background: #ffffff;
@@ -1336,6 +1333,11 @@ button {
     top: 23px;
   }
 }
+.lk__inp--btn-text {
+  transition: all 333ms;
+  font-weight: 300;
+  padding: 5px 0;
+}
 @media (min-width: 576px) {
   .lk__inp--btn {
     font-size: 1.2rem;
@@ -1348,7 +1350,7 @@ button {
 }
 
 .ft__ {
-  transition: all 350ms;
+  transition: all 333ms;
   background: #efefef;
   border-top: 1px solid #e1e2e3;
 }
@@ -1358,7 +1360,7 @@ button {
   }
 }
 .ft__box {
-  transition: all 350ms;
+  transition: all 333ms;
 }
 @media (min-width: 576px) {
   .ft__box {
@@ -1373,7 +1375,7 @@ button {
   }
 }
 .ft__logo {
-  transition: all 350ms;
+  transition: all 333ms;
   color: #636666;
   padding-bottom: 5px;
 }
@@ -1390,7 +1392,7 @@ button {
   }
 }
 .ft__regi {
-  transition: all 350ms;
+  transition: all 333ms;
   font-weight: 300;
   font-size: 0.9em;
 }
